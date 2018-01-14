@@ -1,4 +1,6 @@
  ## A distributed Parallel External Merge Sort
+ First Iteration
+ How this works?
 Readers read from the input files into buffers, which are sorted
 by Sorters. Each sorted buffer is then passed to a Distributor,
 which splits the buffer into a sorted chunk per
